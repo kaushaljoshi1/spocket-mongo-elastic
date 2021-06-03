@@ -33,13 +33,13 @@ and ElasticSearch for Indexing and Searching
 # ElasticSearch initialization    
     Install elasticsearch(7.13 prefered) and start server in port 9200 using sudo systemctl start elasticsearch
 
-#To Start
+# To Start
     Clone project from github
     cd spocket-mongo-elastic
     rails s 
     In browser localhost:3000
     
-#What it do
+# What it do
     On initializing rails server it will check for the products index in elastic search. 
     If index is not create it will create index in elastic server by using index configuration in app/model/product.rb
     The code is written in initializer/elasticsearch.rb
