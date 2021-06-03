@@ -12,16 +12,24 @@ and ElasticSearch for Indexing and Searching
 * Elastic Search
 
 # External dependencies
+    
     Elastic Search instance running in default localhost:9200 port
     You may refer - https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-18-04
 
     Mongo Db Instance on default localhost:27017
+    
+# Gems Dependency
+
+    Elasticsearch-rails, Elasticsearch-model for ES-Rails integration    
+    Mongoid for Mongodb integration
+    React-rails for react components
+    Kaminari for pagination
 
 
 
 # Database creation
 
-    Create a mongo database - spocket_mongo_elastic_development
+    Create a mongo database -> spocket_mongo_elastic_development(Rails will do it for you)
 
 # Database initialization
 
@@ -34,7 +42,13 @@ and ElasticSearch for Indexing and Searching
     Install elasticsearch(7.13 prefered) and start server in port 9200 using sudo systemctl start elasticsearch
 
 # To Start
-    Clone project from github
+    * Setup Mongo - Mentioned Above
+    * Setup Elastic search - Mentioned Above
+    * Database creation - Mentioned Above
+    * Database initialization - Mentioned Above
+    
+    
+    Clone project from github - 
     cd spocket-mongo-elastic
     rails s 
     In browser localhost:3000

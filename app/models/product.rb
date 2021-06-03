@@ -72,7 +72,7 @@ class Product
     search_hash_must_not = search_hash.slice(:shipping_exclusions)
     search_hash_range = search_hash.slice(:minprice, :maxprice)
     sort_hash = search_hash.slice(:sort)
-    
+
     if search_hash.empty?
       products = Product.search query: {
           match_all: {}
