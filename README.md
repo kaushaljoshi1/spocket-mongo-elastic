@@ -5,7 +5,7 @@ and ElasticSearch for Indexing and Searching
 
 * Rails version - 6.0.3
 
-* Ruby verion - 2.6.3
+* Ruby version - 2.6.3
 
 * Mongo DB
 
