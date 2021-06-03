@@ -39,7 +39,7 @@ and ElasticSearch for Indexing and Searching
     rails s 
     In browser localhost:3000
     
-# What it do
+# How It all works
     On initializing rails server it will check for the products index in elastic search. 
     If index is not create it will create index in elastic server by using index configuration in app/model/product.rb
     The code is written in initializer/elasticsearch.rb
@@ -48,6 +48,10 @@ and ElasticSearch for Indexing and Searching
     by using callback method defined in product.rb. This is done using elasticsearch-rails and elasticsearch-model gems
     
     You can see search in action at localhost:3000 once you have configured the project in local.
+    
+# Mentionable Features
+    Blazing fast search using ES and Mongo 
+    Fuzzy search on keyword - Die will fetch results for Dye
     
     
 # Improvements

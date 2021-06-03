@@ -148,7 +148,7 @@ export default function ImgMediaCard() {
                 <Grid item xs={2}>
                     <TextField id="outlined-basic" onChange={handleTitleChange} label="Outlined" variant="outlined" />
                 </Grid>
-                <Grid item xs={1}>
+                <Grid item xs={2}>
                     <FormControl variant="outlined" className={classes.formControl}>
                         <InputLabel id="demo-simple-select-outlined-label">Category</InputLabel>
                         <Select
@@ -169,7 +169,7 @@ export default function ImgMediaCard() {
                         </Select>
                     </FormControl>
                 </Grid>
-                <Grid item xs={1}>
+                <Grid item xs={2}>
                     <FormControl variant="outlined" className={classes.formControl}>
                         <InputLabel id="demo-simple-select-outlined-label">Ships To</InputLabel>
                         <Select
@@ -190,7 +190,7 @@ export default function ImgMediaCard() {
                         </Select>
                     </FormControl>
                 </Grid>
-                <Grid item xs={1}>
+                <Grid item xs={2}>
                     <Typography id="range-slider" gutterBottom>
                         Price range
                     </Typography>
@@ -204,7 +204,7 @@ export default function ImgMediaCard() {
                         max={100}
                     />
                 </Grid>
-                <Grid item xs={1}>
+                <Grid item xs={2}>
                     <FormControl variant="outlined" className={classes.formControl}>
                         <InputLabel id="demo-simple-select-outlined-label">Supplier</InputLabel>
                         <Select
